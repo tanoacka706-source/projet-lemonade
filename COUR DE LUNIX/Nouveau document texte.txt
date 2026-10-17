@@ -1,0 +1,26 @@
+EXERCICE 1
+
+l'administrateur veut creer des comptes pour 3 utilisateurs (Paul, Alice et Jean) avec les caracteristique suivantes :
+
+- les utilisateurs Alice et Jean partagent le meme groupe primaire ou personnel "stagiaire". Tandise que tous les utilisateurs appartiennent au meme groupe secondaire "vente"
+
+- les repertoires personnels des utilisateurs Alice et Jean seront dans le sous repertoire "vente" 
+
+- les mots de passe d'Alice et Jean expirent dans 5 semestres, leurs comptes seront modifiables une semaine apres leur creation et dasactive dans une semaine apres leur creation et dasactivé dans 6 semestres 
+
+- le mot de de Paul expire dans un an, sera modifiable un mois apres la creation et son compte, qui sera desactivé 3 semaines expiration de sont mot de passe 
+
+- les utilisateurs Alice et Jean seront avertis de l'expiration de leur mot de passe 10 avant 
+
+- Alice et Jean auront les permissions par defaut suivantes sur les repertoires qu'ils vont creer (rwx rw- r-x-) et Paul les permissions par defaut qui suivent sur ces fichiers (rwx r-x ---)
+
+TAF 
+1. Indiquer la stratégie à appliquer ?
+2. Indiquer les commandes qui seront exécutées
+3. Indiquer le contenu des fichiers de gestion des utilisateurs et des groupes
+après la création de ces comptes
+4. Indiquer toutes solutions possibles permettant à Paul et Jean d’avoir les
+permissions par défaut indiquées sur les fichiers et toutes les solutions
+permettant à Alice d’avoir aussi les permissions par défaut indiquées sur les
+répertoires
+
